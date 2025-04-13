@@ -34,10 +34,13 @@
         ## Agda
         agda
         (agda.withPackages (p: [ p.standard-library ]))
+        
 
         # macOS Window Management
         yabai
         skhd
+
+        
       ];
     };
   };
